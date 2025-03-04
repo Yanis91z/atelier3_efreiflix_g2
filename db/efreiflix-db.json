@@ -4,7 +4,10 @@
       "id": 1,
       "title": "The Matrix",
       "year": 1999,
-      "genres": ["Action", "Sci-Fi"],
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
       "description": "Un hacker découvre la vérité sur sa réalité et son rôle dans la guerre contre ses contrôleurs.",
       "posterUrl": "https://example.com/posters/matrix.jpg",
       "trailerUrl": "https://www.youtube.com/embed/vKQi3bBA1y8",
@@ -14,7 +17,11 @@
       "id": 2,
       "title": "Inception",
       "year": 2010,
-      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
       "description": "Un voleur spécialisé dans l’extraction d’informations prend part à une mission d’«inception».",
       "posterUrl": "https://example.com/posters/inception.jpg",
       "trailerUrl": "https://www.youtube.com/embed/8hP9D6kZseM",
@@ -24,7 +31,11 @@
       "id": 3,
       "title": "Interstellar",
       "year": 2014,
-      "genres": ["Adventure", "Drama", "Sci-Fi"],
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Sci-Fi"
+      ],
       "description": "Un groupe d'explorateurs voyage à travers un trou de ver à la recherche d'un nouvel habitat pour l'humanité.",
       "posterUrl": "https://example.com/posters/interstellar.jpg",
       "trailerUrl": "https://www.youtube.com/embed/zSWdZVtXT7E",
@@ -34,7 +45,10 @@
       "id": 4,
       "title": "Blade Runner 2049",
       "year": 2017,
-      "genres": ["Sci-Fi", "Drama"],
+      "genres": [
+        "Sci-Fi",
+        "Drama"
+      ],
       "description": "En 2049, un nouveau Blade Runner déterre un secret susceptible de plonger ce qu'il reste de la société dans le chaos.",
       "posterUrl": "https://example.com/posters/bladerunner2049.jpg",
       "trailerUrl": "https://www.youtube.com/embed/gCcx85zbxz4",
@@ -44,7 +58,10 @@
       "id": 5,
       "title": "Pulp Fiction",
       "year": 1994,
-      "genres": ["Crime", "Drama"],
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
       "description": "Les vies de deux gangsters, d'un boxeur et d'un couple de braqueurs se croisent dans une série d'histoires de violence et de rédemption.",
       "posterUrl": "https://example.com/posters/pulpfiction.jpg",
       "trailerUrl": "https://www.youtube.com/embed/s7EdQ4FqbhY",
@@ -87,7 +104,7 @@
       "name": "Alice",
       "bio": "Étudiante passionnée de ciné",
       "email": "Alice@1.net",
-       "profiles": [
+      "profiles": [
         {
           "id": 1,
           "name": "Alice",
@@ -95,8 +112,13 @@
           "email": "",
           "avatar": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31152e75-8fca-497f-bef6-aa065dd7cb67/original=true,quality=90/8A28H215PTYKEQ64TD8EEK2MV0.jpeg",
           "lang": "fr",
-          "watchlist": [2, 4],
-          "favorites": [1]
+          "watchlist": [
+            2,
+            4
+          ],
+          "favorites": [
+            1
+          ]
         },
         {
           "id": 2,
@@ -123,7 +145,10 @@
           "email": "",
           "avatar": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31152e75-8fca-497f-bef6-aa065dd7cb67/original=true,quality=90/8A28H215PTYKEQ64TD8EEK2MV0.jpeg",
           "lang": "fr",
-          "watchlist": [1, 5],
+          "watchlist": [
+            1,
+            5
+          ],
           "favorites": []
         }
       ]
@@ -133,12 +158,19 @@
     {
       "id": 1,
       "movieId": 1,
-      "recommendedMovieIds": [2, 3]
+      "recommendedMovieIds": [
+        2,
+        3
+      ]
     },
     {
       "id": 2,
       "movieId": 3,
-      "recommendedMovieIds": [1, 2, 4]
+      "recommendedMovieIds": [
+        1,
+        2,
+        4
+      ]
     }
   ],
   "about": {
